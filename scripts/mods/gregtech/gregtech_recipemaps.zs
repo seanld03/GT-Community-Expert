@@ -3,6 +3,7 @@
 import mods.gregtech.recipe.RecipeMap;
 
 global alloy_smelter                as RecipeMap = RecipeMap.getByName("alloy_smelter");
+global alloy_blast_smelter       	as RecipeMap = RecipeMap.getByName("alloy_blast_smelter");
 global arc_furnace                  as RecipeMap = RecipeMap.getByName("arc_furnace");
 global assembler                    as RecipeMap = RecipeMap.getByName("assembler");
 global assembly_line                as RecipeMap = RecipeMap.getByName("assembly_line");
@@ -16,6 +17,7 @@ global chemical_reactor             as RecipeMap = RecipeMap.getByName("chemical
 global circuit_assembler            as RecipeMap = RecipeMap.getByName("circuit_assembler");
 global coke_oven                    as RecipeMap = RecipeMap.getByName("coke_oven");
 global compressor                   as RecipeMap = RecipeMap.getByName("compressor");
+global combustion_generator      	as RecipeMap = RecipeMap.getByName("combustion_generator");
 global cracker                      as RecipeMap = RecipeMap.getByName("cracker");
 global cutter                       as RecipeMap = RecipeMap.getByName("cutter");
 global distillation_tower           as RecipeMap = RecipeMap.getByName("distillation_tower");
@@ -56,8 +58,6 @@ global thermal_centrifuge           as RecipeMap = RecipeMap.getByName("thermal_
 global unpackager                   as RecipeMap = RecipeMap.getByName("unpacker");
 global vacuum_freezer               as RecipeMap = RecipeMap.getByName("vacuum_freezer");
 global wiremill                     as RecipeMap = RecipeMap.getByName("wiremill");
-
-
 
 // Tools
 <ore:gtceWrenches>.addItems([

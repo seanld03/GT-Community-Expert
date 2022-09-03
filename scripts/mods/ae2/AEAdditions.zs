@@ -74,7 +74,7 @@ assembler.recipeBuilder()
 # 256k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/256k");
 recipes.removeByRecipeName("aeadditions:storagecells/item/extracasing/256k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:0>,
         <aeadditions:storage.component:0>
@@ -83,7 +83,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.physical:0>])
     .outputs([
         <aeadditions:storage.casing:0>,
@@ -96,7 +96,7 @@ packer.recipeBuilder()
 # 1024k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/1024k");
 recipes.removeByRecipeName("aeadditions:storagecells/item/extracasing/1024k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:0>,
         <aeadditions:storage.component:1>
@@ -105,7 +105,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.physical:1>])
     .outputs([
         <aeadditions:storage.casing:0>,
@@ -118,7 +118,7 @@ packer.recipeBuilder()
 # 4096k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/4096k");
 recipes.removeByRecipeName("aeadditions:storagecells/item/extracasing/4096k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:0>,
         <aeadditions:storage.component:2>
@@ -127,7 +127,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.physical:2>])
     .outputs([
         <aeadditions:storage.casing:0>,
@@ -140,7 +140,7 @@ packer.recipeBuilder()
 # 16384k Storage Cell
 recipes.removeByRecipeName("aeadditions:storagecells/item/owncasing/16384k");
 recipes.removeByRecipeName("aeadditions:storagecells/item/extracasing/16384k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:0>,
         <aeadditions:storage.component:3>
@@ -149,7 +149,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.physical:3>])
     .outputs([
         <aeadditions:storage.casing:0>,
@@ -162,7 +162,7 @@ packer.recipeBuilder()
 # 256k Fluid Cell
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/256k");
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/extracasing/256k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:1>,
         <aeadditions:storage.component:4>
@@ -171,7 +171,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.fluid>])
     .outputs([
         <aeadditions:storage.casing:1>,
@@ -184,7 +184,7 @@ packer.recipeBuilder()
 # 1024k Fluid Cell
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/1024k");
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/extracasing/1024k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:1>,
         <aeadditions:storage.component:5>
@@ -193,7 +193,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.fluid:1>])
     .outputs([
         <aeadditions:storage.casing:1>,
@@ -206,7 +206,7 @@ packer.recipeBuilder()
 # 4096k Fluid Cell
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/owncasing/4096k");
 recipes.removeByRecipeName("aeadditions:storagecells/fluid/extracasing/4096k");
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([
         <aeadditions:storage.casing:1>,
         <aeadditions:storage.component:6>
@@ -215,7 +215,7 @@ packer.recipeBuilder()
     .duration(10)
     .EUt(7)
     .buildAndRegister();
-packer.recipeBuilder()
+packager.recipeBuilder()
     .inputs([<aeadditions:storage.fluid:2>])
     .outputs([
         <aeadditions:storage.casing:1>,
