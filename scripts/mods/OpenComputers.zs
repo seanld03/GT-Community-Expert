@@ -131,9 +131,9 @@ assembler.recipeBuilder()
 recipes.remove(<opencomputers:keyboard>);
 assembler.recipeBuilder()
     .inputs([
-        <oc:materialButtonGroup> * 4,
-        <oc:materialArrowKey>,
-        <oc:materialNumPad>
+        <opencomputers:material:14> * 4,
+        <opencomputers:material:16>,
+        <opencomputers:material:15>
     ])
     .outputs([<opencomputers:keyboard>])
     .duration(200)
