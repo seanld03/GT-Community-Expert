@@ -689,12 +689,6 @@ compressor.recipeBuilder()
     .duration(300)
     .EUt(2)
     .buildAndRegister();
-compressor.recipeBuilder()
-    .inputs([<ore:crystalCertusQuartz> * 8])
-    .outputs([<metaitem:blockCertusQuartz>])
-    .duration(300)
-    .EUt(2)
-    .buildAndRegister();
 fluid_solidifier.recipeBuilder()
     .notConsumable([<metaitem:shape.mold.block>])
     .fluidInputs([<liquid:certus_quartz> * 576])
