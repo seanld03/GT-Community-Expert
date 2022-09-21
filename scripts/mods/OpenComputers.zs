@@ -131,7 +131,9 @@ assembler.recipeBuilder()
 recipes.remove(<opencomputers:keyboard>);
 assembler.recipeBuilder()
     .inputs([
-        <minecraft:stone_button> * 108
+        <oc:materialButtonGroup> * 4,
+        <oc:materialArrowKey>,
+        <oc:materialNumPad>
     ])
     .outputs([<opencomputers:keyboard>])
     .duration(200)
