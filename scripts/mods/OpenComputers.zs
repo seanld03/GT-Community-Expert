@@ -124,3 +124,16 @@ assembler.recipeBuilder()
     .duration(200)
     .EUt(30)
     .buildAndRegister();
+
+
+
+#Keyboard 
+recipes.remove(<opencomputers:keyboard>);
+assembler.recipeBuilder()
+    .inputs([
+        <minecraft:stone_button> * 108
+    ])
+    .outputs([<opencomputers:keyboard>])
+    .duration(200)
+    .EUt(30)
+    .buildAndRegister();
