@@ -63,12 +63,6 @@ extractor.recipeBuilder()
     .duration(80)
     .EUt(30)
     .buildAndRegister();
-extractor.recipeBuilder()
-    .inputs([<ore:crystalPureCertusQuartz>])
-    .fluidOutputs([<liquid:certus_quartz> * 72])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
 
 # Charged Certus Quartz Crystal
 electrolyzer.recipeBuilder()
@@ -116,12 +110,6 @@ mixer.recipeBuilder()
     .EUt(480)
     .buildAndRegister();
 extractor.recipeBuilder()
-    .inputs([<ore:crystalPureFluix>])
-    .fluidOutputs([<liquid:fluix> * 72])
-    .duration(20)
-    .EUt(30)
-    .buildAndRegister();
-extractor.recipeBuilder()
     .inputs([<ore:crystalFluix>])
     .fluidOutputs([<liquid:fluix> * 144])
     .duration(20)
@@ -133,7 +121,6 @@ extractor.recipeBuilder()
     .duration(80)
     .EUt(30)
     .buildAndRegister();
-
 
 
 ########################################
@@ -331,8 +318,8 @@ assembly_line.recipeBuilder()
     .inputs([<metaitem:cover.solar.panel.zpm> * 4])
     .inputs([<metaitem:sensor.uv> * 8])
     .inputs([<metaitem:circuit.crystal_mainframe> * 4])
-    .inputs([<metaitem:plate.nano_power_integrated_circuit> * 4])
-    .inputs([<gcys:transparent_casing>])
+    #.inputs([<metaitem:plate.nano_power_integrated_circuit> * 4])
+    #.inputs([<gcys:transparent_casing>])
     .inputs([<metaitem:transformer.uv>])
     .fluidInputs(<liquid:silicon> * 1152)
     .fluidInputs(<liquid:soldering_alloy> * 36864)
@@ -435,22 +422,6 @@ electrolyzer.recipeBuilder()
     ])
     .duration(168)
     .EUt(30)
-    .buildAndRegister();
-
-# Nether Quartz Rod
-lathe.recipeBuilder()
-    .inputs([<ore:crystalPureNetherQuartz>])
-    .outputs([<metaitem:stickNetherQuartz>])
-    .duration(40)
-    .EUt(16)
-    .buildAndRegister();
-
-# Certus Quartz Rod
-lathe.recipeBuilder()
-    .inputs([<ore:crystalPureCertusQuartz>])
-    .outputs([<metaitem:stickCertusQuartz>])
-    .duration(40)
-    .EUt(16)
     .buildAndRegister();
 
 # Certus Quartz Dust (Override)
@@ -719,7 +690,7 @@ compressor.recipeBuilder()
     .EUt(2)
     .buildAndRegister();
 compressor.recipeBuilder()
-    .inputs([<ore:crystalPureCertusQuartz> * 8])
+    .inputs([<ore:crystalCertusQuartz> * 8])
     .outputs([<metaitem:blockCertusQuartz>])
     .duration(300)
     .EUt(2)
@@ -734,13 +705,13 @@ fluid_solidifier.recipeBuilder()
 
 # Fluix Block
 <ore:blockFluix>.addItems([<appliedenergistics2:fluix_block>]);
-fluid_solidifier.recipeBuilder()
-    .notConsumable([<metaitem:shape.mold.block>])
-    .fluidInputs([<liquid:fluix> * 576])
-    .outputs([<appliedenergistics2:fluix_block>])
-    .duration(20)
-    .EUt(7)
-    .buildAndRegister();
+#fluid_solidifier.recipeBuilder()
+    #.notConsumable([<metaitem:shape.mold.block>])
+    #.fluidInputs([<liquid:fluix> * 576])
+    #.outputs([<appliedenergistics2:fluix_block>])
+    #.duration(20)
+    #.EUt(7)
+    #.buildAndRegister();
 
 # Quartzite Block (Override)
 compressor.findRecipe(2, [<metaitem:gemQuartzite> * 9], null).remove();
