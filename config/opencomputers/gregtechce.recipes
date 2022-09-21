@@ -840,7 +840,7 @@ microcontrollercase2 {
 
 tabletcase1 {
   input: [
-    ["screwGold", "button", "screwGold"]
+    ["screwGold", "minecraft:stone_button", "screwGold"]
     ["oc:componentBus1", "oc:screen2", "oc:circuitChip3"]
     ["screwGold", {oreDict: "circuitLv"}, {oreDict: "gtce.tool.screwdrivers"}]
   ]
@@ -848,7 +848,7 @@ tabletcase1 {
 
 tabletcase2 {
   input: [
-    ["oc:circuitChip2", "button", "screwGold"]
+    ["oc:circuitChip2", "minecraft:stone_button", "screwGold"]
     ["oc:componentBus3", "oc:screen2", "oc:circuitChip3"]
     ["oc:circuitChip2", {oreDict: "circuitLv"}, {oreDict: "gtce.tool.screwdrivers"}]
   ]
@@ -913,24 +913,24 @@ raid {
 buttongroup {
   input: [
     ["", "", ""]
-    ["button", "button", "button"]
-    ["button", "button", "button"]
+    ["minecraft:stone_button", "minecraft:stone_button", "minecraft:stone_button"]
+    ["minecraft:stone_button", "minecraft:stone_button", "minecraft:stone_button"]
   ]
 }
 
 arrowkeys {
   input: [
     ["", "", ""]
-    ["", "button", ""]
-    ["button", "button", "button"]
+    ["", "minecraft:stone_button", ""]
+    ["minecraft:stone_button", "minecraft:stone_button", "minecraft:stone_button"]
   ]
 }
 
 numpad {
   input: [
-    ["button", "button", "button"]
-    ["button", "button", "button"]
-    ["button", "button", "button"]
+    ["minecraft:stone_button", "minecraft:stone_button", "minecraft:stone_button"]
+    ["minecraft:stone_button", "minecraft:stone_button", "minecraft:stone_button"]
+    ["minecraft:stone_button", "minecraft:stone_button", "minecraft:stone_button"]
   ]
 }
 
