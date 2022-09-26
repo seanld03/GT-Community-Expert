@@ -42,6 +42,22 @@ recipes.removeByRecipeName("appliedenergistics2:misc/deconstruction_certus_quart
 // Certus Quartz Pillar Uncraft
 recipes.removeByRecipeName("appliedenergistics2:misc/deconstruction_certus_chiseled_quartz");
 
+
+// Broken Vanilla Comparator Recipe
+recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_comparator");
+
+// Broken light detecting fixture recipe
+recipes.removeByRecipeName("appliedenergistics2:decorative/light_detector");
+recipes.addShapeless("light_detecting_fixture", <appliedenergistics2:light_detector>, [<ore:gemQuartz>, <minecraft:iron_ingot>]);
+
+// Broken vanilla daylight detector recipe
+recipes.removeByRecipeName("appliedenergistics2:misc/vanilla_daylight_detector");
+
+// Broken entropy manipulator recipe
+recipes.removeByRecipeName("appliedenergistics2:tools/misctools_entropy_manipulator");
+recipes.addShaped("entropy_manipulator", <appliedenergistics2:entropy_manipulator>, [[<ore:crystalFluix>, <appliedenergistics2:energy_cell>, null], [<appliedenergistics2:material:24>, <ore:ingotIron>, null], [null, null, <ore:ingotIron>]]);
+
+
 // Tiny TNT
 recipes.removeByRecipeName("appliedenergistics2:misc/tiny_tnt");
 cutter.recipeBuilder()
