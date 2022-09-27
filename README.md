@@ -1,6 +1,6 @@
 # Gregtech Community Expert
 
-Gregtech community pack and Gregtech expert 2 modpacks combined with added mods and necessary config changes
+Gregtech Community Pack and Gregtech Expert 2 combined into a single modpack with added mods and necessary config changes.
 
 ## Playing
 
