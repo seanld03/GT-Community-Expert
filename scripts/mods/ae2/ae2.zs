@@ -1,6 +1,10 @@
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 
+// hide jei categories
+mods.jei.JEI.hideCategory("appliedenergistics2.grinder");
+mods.jei.JEI.hideCategory("appliedenergistics2.inscriber");
+
 // Quartz Glass
 recipes.removeByRecipeName("appliedenergistics2:decorative/quartz_glass");
 alloy_smelter.recipeBuilder()
