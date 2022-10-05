@@ -9,8 +9,7 @@ JEI.hideCategory("EIOTank");
 JEI.hideCategory("LavaGenerator");
 JEI.hideCategory("SolarPanel");
 JEI.hideCategory("StirlingGenerator");
-
-
+JEI.hideCategory("Painter");
 
 ########################################
 # Materials
